@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Bella Nails — Studio de manicure e nail art em São Paulo. Agendamentos, serviços e portfólio." />
+  <title>Bella Nails | Studio de Manicure</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+    crossorigin="anonymous"
+  />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- ===== CABEÇALHO / NAVEGAÇÃO ===== -->
+  <header class="site-header">
+    <nav class="navbar navbar-expand-lg" aria-label="Navegação principal">
+      <section class="container">
+        <a class="navbar-brand brand-logo" href="#inicio" aria-label="Bella Nails — página inicial">
+          <span class="brand-icon" aria-hidden="true">✦</span> Bella Nails
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navMenu"
+          aria-controls="navMenu"
+          aria-expanded="false"
+          aria-label="Abrir menu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <section class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto gap-lg-2">
+            <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+            <li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
+            <li class="nav-item"><a class="nav-link" href="#portfolio">Portfólio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#faq">Dúvidas</a></li>
+            <li class="nav-item">
+              <a class="nav-link btn-nav-cta" href="#contato">Agendar</a>
+            </li>
+          </ul>
+        </section>
+      </section>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ===== HERO ===== -->
+    <section id="inicio" class="hero-section" aria-labelledby="hero-title">
+      <section class="container hero-content">
+        <p class="hero-eyebrow">Studio de Manicure &amp; Nail Art</p>
+        <h1 id="hero-title" class="hero-title">
+          Cada detalhe<br />nas suas mãos.
+        </h1>
+        <p class="hero-sub">
+          Atendimento personalizado, ambiente aconchegante e acabamento impecável —
+          em Águas Claras, Manhattan Shopping - Brasília.
+        </p>
+        <a href="#contato" class="btn-primary-custom">Quero agendar</a>
+      </section>
+      <figure class="hero-deco" aria-hidden="true"></figure>
+    </section>
+
+    <!-- ===== SOBRE ===== -->
+    <section id="sobre" class="sobre-section section-gap" aria-labelledby="sobre-title">
+      <section class="container">
+        <section class="row align-items-center g-5">
+          <figure class="col-lg-6">                                  
+            <aside class="img-placeholder sobre-img" role="img" aria-label="Foto da manicure Isabela Santos trabalhando">
+               <img class="portfolio-img" src="img/pessoa.png" alt="pessoa trabalhando"> 
+            </aside>
+          </figure>
+          <article class="col-lg-6">
+            <p class="section-eyebrow">Quem somos</p>
+            <h2 id="sobre-title" class="section-title">Isabela Santos,<br />manicure há 12 anos</h2>
+            <p class="body-text">
+              Comecei na manicure por paixão e fiquei pela precisão. Cada atendimento é tratado como único:
+              ouço o que você precisa, cuido da saúde das unhas e entrego um resultado que você vai querer mostrar.
+            </p>
+            <p class="body-text">
+              Trabalho com esmaltação tradicional, gel, fibra de vidro e nail art personalizada.
+              Meu studio é pequeno, limpo e pensado para você relaxar.
+            </p>
+            <ul class="sobre-list">
+              <li>✦ Materiais descartáveis por cliente</li>
+              <li>✦ Esterilização rigorosa de ferramentas</li>
+              <li>✦ Horários flexíveis, inclusive aos sábados</li>
+            </ul>
+          </article>
+        </section>
+      </section>
+    </section>
+
+    <!-- ===== SERVIÇOS ===== -->
+    <section id="servicos" class="servicos-section section-gap" aria-labelledby="servicos-title">
+      <section class="container">
+        <p class="section-eyebrow text-center">O que ofereço</p>
+        <h2 id="servicos-title" class="section-title text-center mb-5">Serviços</h2>
+
+        <section class="row g-4">
+          <section class="col-sm-6 col-lg-3">
+            <article class="card service-card h-100" aria-label="Serviço: Manicure e Pedicure">
+              <section class="card-body">
+                <p class="service-icon" aria-hidden="true">💅</p>
+                <h3 class="service-name">Manicure &amp; Pedicure</h3>
+                <p class="service-desc">Cutícula, lixamento, esmaltação comum ou francesa. Cuidado completo das unhas das mãos e pés.</p>
+                <p class="service-price">A partir de <strong>R$ 45</strong></p>
+              </section>
+            </article>
+          </section>
+
+          <section class="col-sm-6 col-lg-3">
+            <article class="card service-card h-100" aria-label="Serviço: Esmaltação em Gel">
+              <section class="card-body">
+                <p class="service-icon" aria-hidden="true">✨</p>
+                <h3 class="service-name">Esmaltação em Gel</h3>
+                <p class="service-desc">Acabamento brilhante de longa duração. Ideal para quem quer praticidade sem abrir mão da estética.</p>
+                <p class="service-price">A partir de <strong>R$ 80</strong></p>
+              </section>
+            </article>
+          </section>
+
+          <section class="col-sm-6 col-lg-3">
+            <article class="card service-card h-100" aria-label="Serviço: Fibra de Vidro">
+              <section class="card-body">
+                <p class="service-icon" aria-hidden="true">💎</p>
+                <h3 class="service-name">Fibra de Vidro</h3>
+                <p class="service-desc">Alongamento resistente e natural. Ótima alternativa para quem tem unhas frágeis ou curtas.</p>
+                <p class="service-price">A partir de <strong>R$ 120</strong></p>
+              </section>
+            </article>
+          </section>
+
+          <section class="col-sm-6 col-lg-3">
+            <article class="card service-card h-100" aria-label="Serviço: Nail Art">
+              <section class="card-body">
+                <p class="service-icon" aria-hidden="true">🎨</p>
+                <h3 class="service-name">Nail Art</h3>
+                <p class="service-desc">Desenhos, adesivos, pedras e degradê. Arte personalizada para cada estilo e ocasião especial.</p>
+                <p class="service-price">A partir de <strong>R$ 20</strong> por dedo</p>
+              </section>
+            </article>
+          </section>
+        </section>
+
+        <p class="servicos-obs text-center mt-4">
+          * Valores podem variar conforme o comprimento das unhas e complexidade do serviço.
+          Solicite um orçamento personalizado pelo WhatsApp.
+        </p>
+      </section>
+    </section>
+
+    <!-- ===== PORTFÓLIO ===== -->
+    <section id="portfolio" class="portfolio-section section-gap" aria-labelledby="portfolio-title">
+      <section class="container">
+        <p class="section-eyebrow text-center">Trabalhos recentes</p>
+        <h2 id="portfolio-title" class="section-title text-center mb-5">Portfólio</h2>
+
+        <nav class="portfolio-filters mb-4" role="group" aria-label="Filtrar portfólio por categoria">
+          <button class="filter-btn active" data-filter="todos" aria-pressed="true">Todos</button>
+          <button class="filter-btn" data-filter="gel" aria-pressed="false">Gel</button>
+          <button class="filter-btn" data-filter="nailart" aria-pressed="false">Nail Art</button>
+          <button class="filter-btn" data-filter="fibra" aria-pressed="false">Fibra</button>
+        </nav>
+
+        <section class="row g-3" id="portfolio-grid">
+          <article class="col-6 col-md-4 portfolio-item" data-category="gel">
+            <figure class="portfolio-img-wrap"> 
+              <img class="portfolio-img" src="img/Gel Nude.png" alt="Esmaltação em gel cor nude com acabamento brilhante">                
+              <aside class="img-placeholder portfolio-img" role="img" aria-label="Esmaltação em gel cor nude com acabamento brilhante"></aside>
+              <figcaption class="portfolio-label">Gel Nude</figcaption>
+            </figure>
+          </article>
+          <article class="col-6 col-md-4 portfolio-item" data-category="nailart">
+            <figure class="portfolio-img-wrap">
+              <img class="portfolio-img" src="img/Floral Rosa.png" alt="Esmaltação em gel cor Floral Rosa">                
+              <aside class="img-placeholder portfolio-img" role="img" aria-label="Nail art floral com flores delicadas em tons de rosa"></aside>
+              <figcaption class="portfolio-label">Floral Rosa</figcaption>
+            </figure>
+          </article>
+          <article class="col-6 col-md-4 portfolio-item" data-category="fibra">
+            <figure class="portfolio-img-wrap">
+              <img class="portfolio-img" src="img/unha-amendoada.png" alt="Esmaltação em gel estilo amendoado">                
+              <aside class="img-placeholder portfolio-img" role="img" aria-label="Alongamento em fibra de vidro com formato amendoado"></aside>
+              <figcaption class="portfolio-label">Fibra Amendoada</figcaption>
+            </figure>
+          </article>
+          <article class="col-6 col-md-4 portfolio-item" data-category="nailart">
+            <figure class="portfolio-img-wrap">
+              <img class="portfolio-img" src="img/Unhas-geométricas-11.jpg" alt="Esmaltação em gel estilo geométrico">                
+              <aside class="img-placeholder portfolio-img" role="img" aria-label="Nail art geométrica em preto e dourado"></aside>
+              <figcaption class="portfolio-label">Geométrico P&amp;B</figcaption>
+            </figure>
+          </article>
+          <article class="col-6 col-md-4 portfolio-item" data-category="gel">
+            <figure class="portfolio-img-wrap">
+              <img class="portfolio-img" src="img/degradê lilás.jpg" alt="Esmaltação em gel estilo degradê"> 
+              <aside class="img-placeholder portfolio-img" role="img" aria-label="Gel com degradê lilás e branco"></aside>
+              <figcaption class="portfolio-label">Degradê Lilás</figcaption>
+            </figure>
+          </article>
+          <article class="col-6 col-md-4 portfolio-item" data-category="fibra">
+            <figure class="portfolio-img-wrap">
+              <img class="portfolio-img" src="img/Francesinha.png" alt="Esmaltação em gel estilo francesinha">
+              <aside class="img-placeholder portfolio-img" role="img" aria-label="Fibra de vidro com esmaltação francesa clássica"></aside>
+              <figcaption class="portfolio-label">Fibra Francesa</figcaption>
+            </figure>
+          </article>
+        </section>
+      </section>
+    </section>
+
+    <!-- ===== FAQ ===== -->
+    <section id="faq" class="faq-section section-gap" aria-labelledby="faq-title">
+      <section class="container">
+        <p class="section-eyebrow text-center">Perguntas frequentes</p>
+        <h2 id="faq-title" class="section-title text-center mb-5">Dúvidas comuns</h2>
+
+        <section class="faq-list" role="list">
+
+          <article class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-resp-1">
+              Como faço para agendar?
+              <span class="faq-arrow" aria-hidden="true">▾</span>
+            </button>
+            <section class="faq-answer" id="faq-resp-1" hidden>
+              <p>O agendamento é feito diretamente pelo WhatsApp ou pelo formulário de contato no final desta página.
+              Escolha o serviço desejado, informe a data preferida e eu confirmo a disponibilidade em até 2 horas.</p>
+            </section>
+          </article>
+
+          <article class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-resp-2">
+              Preciso pagar alguma taxa de reserva?
+              <span class="faq-arrow" aria-hidden="true">▾</span>
+            </button>
+            <section class="faq-answer" id="faq-resp-2" hidden>
+              <p>Não. O agendamento é gratuito. Solicito apenas uma confirmação no dia anterior para evitar ausências sem aviso.
+              Cancelamentos com menos de 12h de antecedência podem ser cobrados em 50% do serviço.</p>
+            </section>
+          </article>
+
+          <article class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-resp-3">
+              Quais formas de pagamento são aceitas?
+              <span class="faq-arrow" aria-hidden="true">▾</span>
+            </button>
+            <section class="faq-answer" id="faq-resp-3" hidden>
+              <p>Aceito Pix, dinheiro e cartão de débito. Para cartão de crédito, o pagamento pode ser parcelado em até 3x
+              sem juros para serviços acima de R$ 150.</p>
+            </section>
+          </article>
+
+          <article class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-resp-4">
+              Quanto tempo dura cada serviço?
+              <span class="faq-arrow" aria-hidden="true">▾</span>
+            </button>
+            <section class="faq-answer" id="faq-resp-4" hidden>
+              <p>Manicure: aproximadamente 40 minutos. Pedicure: 50 minutos. Gel: 1h a 1h30.
+              Fibra de vidro: 2h a 3h dependendo do comprimento. Nail art é cobrada por dedo e o tempo
+              varia conforme a complexidade do design.</p>
+            </section>
+          </article>
+
+        </section>
+      </section>
+    </section>
+
+    <!-- ===== CONTATO ===== -->
+    <section id="contato" class="contato-section section-gap" aria-labelledby="contato-title">
+      <section class="container">
+        <section class="row g-5">
+
+          <article class="col-lg-5">
+            <p class="section-eyebrow">Fale comigo</p>
+            <h2 id="contato-title" class="section-title">Agende seu horário</h2>
+            <p class="body-text">
+              Escolha o serviço, sugira uma data e eu entro em contato para confirmar.
+              Atendo de segunda a sábado, das 9h às 19h.
+            </p>
+            <address class="contato-info">
+              <p>
+                <strong>WhatsApp:</strong>
+                <a href="https://wa.me/5561999999999" class="contato-link" aria-label="Enviar mensagem no WhatsApp para (61) 99999-9999">
+                  (61) 99999-9999
+                </a>
+              </p>
+              <p>
+                <strong>Instagram:</strong>
+                <a class="contato-link" aria-label="Perfil do Instagram Bella Nails">
+                  @bellanails
+                </a>
+              </p>
+              <p><strong>Endereço:</strong> Manhattan Shopping - Brasília</p>
+              <p><strong>Horário:</strong> Quinta, Sexta e Sábado, 13h às 20h</p>
+            </address>
+          </article>
+
+          <article class="col-lg-7">
+            <section class="form-card">
+              <p id="form-feedback" class="form-feedback" role="alert" aria-live="polite" hidden></p>
+
+              <section class="form-row-group">
+                <section class="form-field">
+                  <label for="nome" class="form-label-custom">Seu nome <span aria-hidden="true">*</span></label>
+                  <input type="text" id="nome" name="nome" class="form-input"
+                    placeholder="Ex.: Maria Fernanda" autocomplete="name" aria-required="true" />
+                  <span class="field-error" id="nome-erro" role="alert"></span>
+                </section>
+
+                <section class="form-field">
+                  <label for="telefone" class="form-label-custom">WhatsApp <span aria-hidden="true">*</span></label>
+                  <input type="tel" id="telefone" name="telefone" class="form-input"
+                    placeholder="(61) 99999-9999" autocomplete="tel" aria-required="true" />
+                  <span class="field-error" id="telefone-erro" role="alert"></span>
+                </section>
+              </section>
+
+              <section class="form-field">
+                <label for="servico" class="form-label-custom">Serviço desejado <span aria-hidden="true">*</span></label>
+                <select id="servico" name="servico" class="form-input" aria-required="true">
+                  <option value="">Selecione um serviço</option>
+                  <option value="manicure">Manicure</option>
+                  <option value="pedicure">Pedicure</option>
+                  <option value="manicure-pedicure">Manicure + Pedicure</option>
+                  <option value="gel">Esmaltação em Gel</option>
+                  <option value="fibra">Fibra de Vidro</option>
+                  <option value="nailart">Nail Art</option>
+                </select>
+                <span class="field-error" id="servico-erro" role="alert"></span>
+              </section>
+
+              <section class="form-field">
+                <label for="mensagem" class="form-label-custom">Mensagem (opcional)</label>
+                <textarea id="mensagem" name="mensagem" class="form-input form-textarea"
+                  placeholder="Conte um pouco mais: data preferida, referência de nail art, dúvidas..." rows="4"></textarea>
+              </section>
+
+              <button type="button" id="btn-enviar" class="btn-primary-custom w-100">
+                Solicitar agendamento
+              </button>
+            </section>
+          </article>
+
+        </section>
+      </section>
+    </section>
+
+  </main>
+
+  <!-- ===== RODAPÉ ===== -->
+  <footer class="site-footer" aria-label="Rodapé">
+    <section class="container footer-inner">
+      <p class="footer-brand">✦ Bella Nails</p>
+      <nav aria-label="Links rápidos do rodapé">
+        <ul class="footer-links">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#portfolio">Portfólio</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+      <p class="footer-copy">&copy; 2025 Bella Nails. Todos os direitos reservados.</p>
+    </section>
+  </footer>
+
+  <!-- Bootstrap 5 JS -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc4s9bIOgUxi8T/jzmr97NFxP7BxQFt2g9J9Hhe6qsS"
+    crossorigin="anonymous"
+  ></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
