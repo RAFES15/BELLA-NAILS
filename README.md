@@ -119,8 +119,8 @@ carregando corretamente fora do ambiente local.
 
 ## Links
 
-- Link do repositório: _a preencher_
-- Link do site publicado: _a preencher_
+- Link do repositório: (https://github.com/RAFES15/BELLA-NAILS/tree/main/manicure%20-%20Final)
+- Link do site publicado: (https://rafes15.github.io/BELLA-NAILS/)
 
 ## Contribuição dos integrantes
 
